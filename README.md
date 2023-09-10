@@ -4,7 +4,7 @@ In this repository, we provide a script that automates the process of opening an
 
 ## Installing Dependencies
 
-Before running the `open-screenshot-close.py` script, you need to install the Pillow library. Please note that the closing part of the script is currently designed for Windows OS. To enable program closure on Linux and macOS, you should also install psutil as follows:
+Before running the `open-screenshot-close.py` script, you need to install the `Pillow` library. Please note that the closing part of the script is currently designed for Windows OS. To enable program closure on Linux and macOS, you should also install `psutil` as follows:
 
 ```bash
 pip install psutil
@@ -15,13 +15,13 @@ pip install Pillow
 
 Follow these steps to run the program:
 
-* Install Dependencies: If you are using Linux or macOS, replace the close_program_by_name function in `open-screenshot-close.py` with the code provided in close.py.
+* **Install Dependencies**: If you are using Linux or macOS, replace the `close_program_by_name` function in `open-screenshot-close.py` with the code provided in `close.py`.
 
-* Configure File Paths: Set the values of `base_file_path` and `base_store_screenshot_path` in `open-screenshot-close.py`.
+* **Configure File Paths**: Set the values of `base_file_path` and `base_store_screenshot_path` in `open-screenshot-close.py`.
 
-* Specify the Area for Screenshots: Define the region of the screen that you want to capture.
+* **Specify the Area for Screenshots**: Define the region of the screen that you want to capture.
 
-* Execute the Script: Run the script using the following command:
+* **Execute the Script**: Run the script using the following command:
 
 ```bash
 python open-screenshot-close.py
